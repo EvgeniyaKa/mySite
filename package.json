@@ -1,0 +1,32 @@
+{
+  "name": "my_site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "path": "^0.12.7",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "description": ""
+}

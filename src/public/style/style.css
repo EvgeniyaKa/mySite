@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+.body {
+    font-family: 'New Tegomin', serif;
+}
+h1,
+h2,
+a,
+p,
+li {
+    margin: 0;
+    padding: 0;
+}
+.bg_img {
+    background-image: url(../img/2017-04-15-20-20-05.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 56px;
+}
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #3e3650;
+    opacity: 0.6;
+    padding: 10px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo_img {
+    width: 35px;
+
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #1d1729;
+}
+.my_works__title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.work_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.myPage {
+    max-width: 450px;
+    padding: 15px;
+    margin: 200px auto 0;
+    background: #3e3650;
+    opacity: 0.6;
+    border-radius: 10px;
+    /* box-shadow: 0 0 15px rgba(0,0,0,0.7); */
+    text-align: center;
+}
+.myPage__border {
+    border: 2px solid #1d1729;
+    border-radius: 10px;
+    margin: 10px;
+}
+.myPage__title {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 30px 20px;
+}
+.my_works {
+    background-image: url(../img/peyzazhi-priroda-trava-holmy.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 56px;
+    padding-top: 60px;
+}
+.my_work__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.my_work__item {
+    width: 250px;
+    height: 350px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.contacts {
+    background-image: url(../img/075-d82.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 56px;
+}
